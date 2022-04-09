@@ -3,6 +3,8 @@
   "version": "2.0.0",
   "main": "dist/index.js",
   "scripts": {
+    "start": "ts-node-dev --respawn ./src/index.ts",
+    "debug": "ts-node-dev --respawn --inspect=5858 ./src/index.ts",
     "build": "rm -rf dist && tsc",
     "serve": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +19,9 @@
     "url": "https://github.com/baharalidurrani/test-ts-99/issues"
   },
   "homepage": "https://github.com/baharalidurrani/test-ts-99#readme",
-  "description": "npm typescript publish test"
+  "description": "npm typescript publish test",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
 }
