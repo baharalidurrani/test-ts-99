@@ -1,11 +1,19 @@
 {
   "name": "test-ts-99",
   "version": "1.0.0",
-  "description": "",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "baharalidurrani@gmail.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baharalidurrani/test-ts-99.git"
+  },
+  "bugs": {
+    "url": "https://github.com/baharalidurrani/test-ts-99/issues"
+  },
+  "homepage": "https://github.com/baharalidurrani/test-ts-99#readme",
+  "description": "npm typescript publish test"
 }
